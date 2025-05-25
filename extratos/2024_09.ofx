@@ -1,0 +1,107 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <DTSERVER>20240930000000
+      <LANGUAGE>ENG
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1001
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL
+        <BANKACCTFROM>
+          <BANKID>123
+          <ACCTID>123456789
+          <ACCTTYPE>CHECKING
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20240901000000
+          <DTEND>20240930000000
+          
+      <STMTTRN>
+        <TRNTYPE>DEPOSIT
+        <DTPOSTED>20240901
+        <TRNAMT>4500.00
+        <FITID>100800
+        <NAME>Empresa XYZ
+        <MEMO>Salário mensal
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240912
+        <TRNAMT>170.78
+        <FITID>100801
+        <NAME>Academia
+        <MEMO>Gasto com academia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240918
+        <TRNAMT>390.98
+        <FITID>100802
+        <NAME>Supermercado
+        <MEMO>Gasto com supermercado
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240927
+        <TRNAMT>390.98
+        <FITID>100803
+        <NAME>Supermercado
+        <MEMO>Gasto com supermercado
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240909
+        <TRNAMT>214.38
+        <FITID>100804
+        <NAME>Restaurante
+        <MEMO>Gasto com restaurante
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240905
+        <TRNAMT>103.28
+        <FITID>100805
+        <NAME>Lazer
+        <MEMO>Gasto com lazer
+      </STMTTRN>
+    
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00
+          <DTASOF>20240930000000
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>

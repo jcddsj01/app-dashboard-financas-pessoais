@@ -1,0 +1,7 @@
+# Ambiente virtual
+venv-dashboard-financas-pessoais/
+.env
+
+# Cache e arquivos temporários
+__pycache__/
+*.pyc

@@ -1,0 +1,107 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <DTSERVER>20240331000000
+      <LANGUAGE>ENG
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1001
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL
+        <BANKACCTFROM>
+          <BANKID>123
+          <ACCTID>123456789
+          <ACCTTYPE>CHECKING
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20240301000000
+          <DTEND>20240331000000
+          
+      <STMTTRN>
+        <TRNTYPE>DEPOSIT
+        <DTPOSTED>20240301
+        <TRNAMT>4500.00
+        <FITID>100200
+        <NAME>Empresa XYZ
+        <MEMO>Salário mensal
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240306
+        <TRNAMT>39.27
+        <FITID>100201
+        <NAME>Farmácia
+        <MEMO>Gasto com farmácia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240319
+        <TRNAMT>170.78
+        <FITID>100202
+        <NAME>Academia
+        <MEMO>Gasto com academia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240319
+        <TRNAMT>106.93
+        <FITID>100203
+        <NAME>Transporte
+        <MEMO>Gasto com transporte
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240323
+        <TRNAMT>170.78
+        <FITID>100204
+        <NAME>Academia
+        <MEMO>Gasto com academia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240305
+        <TRNAMT>39.27
+        <FITID>100205
+        <NAME>Farmácia
+        <MEMO>Gasto com farmácia
+      </STMTTRN>
+    
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00
+          <DTASOF>20240331000000
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>

@@ -1,0 +1,97 @@
+﻿Data,Valor,Descrição,ID,Categoria
+2024-01-01,4500.0,Salário mensal,100000,Receitas
+2024-01-06,39.27,Gasto com farmácia,100001,Saúde
+2024-01-13,390.98,Gasto com supermercado,100002,Mercado
+2024-01-25,390.98,Gasto com supermercado,100003,Mercado
+2024-01-23,170.78,Gasto com academia,100004,Saúde
+2024-01-23,214.38,Gasto com restaurante,100005,Alimentação
+2024-01-10,390.98,Gasto com supermercado,100006,Mercado
+2024-01-02,39.27,Gasto com farmácia,100007,Saúde
+2024-01-23,214.38,Gasto com restaurante,100008,Alimentação
+2024-02-01,4500.0,Salário mensal,100100,Receitas
+2024-02-17,170.78,Gasto com academia,100101,Saúde
+2024-02-16,39.27,Gasto com farmácia,100102,Saúde
+2024-02-18,214.38,Gasto com restaurante,100103,Alimentação
+2024-02-11,390.98,Gasto com supermercado,100104,Mercado
+2024-02-12,106.93,Gasto com transporte,100105,Transporte
+2024-03-01,4500.0,Salário mensal,100200,Receitas.
+2024-03-06,39.27,Gasto com farmácia,100201,Saúde
+2024-03-19,170.78,Gasto com academia,100202,Saúde
+2024-03-19,106.93,Gasto com transporte,100203,Transporte
+2024-03-23,170.78,Gasto com academia,100204,Saúde
+2024-03-05,39.27,Gasto com farmácia,100205,Saúde
+2024-04-01,4500.0,Salário mensal,100300,Receitas
+2024-04-15,106.93,Gasto com transporte,100301,Transporte
+2024-04-05,390.98,Gasto com supermercado,100302,Mercado
+2024-04-07,106.93,Gasto com transporte,100303,Transporte
+2024-04-04,390.98,Gasto com supermercado,100304,Mercado
+2024-04-07,106.93,Gasto com transporte,100305,Transporte
+2024-04-19,170.78,Gasto com academia,100306,Saúde
+2024-05-01,4500.0,Salário mensal,100400,Receitas
+2024-05-06,214.38,Gasto com restaurante,100401,Alimentação
+2024-05-21,170.78,Gasto com academia,100402,Saúde
+2024-05-18,103.28,Gasto com lazer,100403,Compras
+2024-05-13,39.27,Gasto com farmácia,100404,Saúde
+2024-05-23,106.93,Gasto com transporte,100405,Transporte
+2024-05-26,170.78,Gasto com academia,100406,Saúde
+2024-05-10,106.93,Gasto com transporte,100407,Transporte
+2024-05-09,106.93,Gasto com transporte,100408,Transporte
+2024-05-26,106.93,Gasto com transporte,100409,Transporte
+2024-06-01,4500.0,Salário mensal,100500,Receitas
+2024-06-20,170.78,Gasto com academia,100501,Saúde
+2024-06-15,170.78,Gasto com academia,100502,Saúde
+2024-06-23,170.78,Gasto com academia,100503,Saúde
+2024-06-24,390.98,Gasto com supermercado,100504,Mercado
+2024-06-03,214.38,Gasto com restaurante,100505,Alimentação
+2024-07-01,4500.0,Salário mensal,100600,Receitas
+2024-07-14,103.28,Gasto com lazer,100601,Alimentação
+2024-07-15,39.27,Gasto com farmácia,100602,Saúde
+2024-07-04,39.27,Gasto com farmácia,100603,Saúde
+2024-07-21,390.98,Gasto com supermercado,100604,Mercado
+2024-07-04,170.78,Gasto com academia,100605,Saúde
+2024-07-26,103.28,Gasto com lazer,100606,Alimentação
+2024-07-07,39.27,Gasto com farmácia,100607,Saúde
+2024-07-24,106.93,Gasto com transporte,100608,Transporte
+2024-08-01,4500.0,Salário mensal,100700,Receitas
+2024-08-19,39.27,Gasto com farmácia,100701,Saúde
+2024-08-09,103.28,Gasto com lazer,100702,Alimentação
+2024-08-27,39.27,Gasto com farmácia,100703,Saúde
+2024-08-17,390.98,Gasto com supermercado,100704,Mercado
+2024-08-22,39.27,Gasto com farmácia,100705,Saúde
+2024-08-15,103.28,Gasto com lazer,100706,Alimentação
+2024-08-22,390.98,Gasto com supermercado,100707,Mercado
+2024-08-03,103.28,Gasto com lazer,100708,Alimentação
+2024-09-01,4500.0,Salário mensal,100800,Receitas
+2024-09-12,170.78,Gasto com academia,100801,Saúde
+2024-09-18,390.98,Gasto com supermercado,100802,Mercado
+2024-09-27,390.98,Gasto com supermercado,100803,Mercado
+2024-09-09,214.38,Gasto com restaurante,100804,Alimentação
+2024-09-05,103.28,Gasto com lazer,100805,Alimentação
+2024-10-01,4500.0,Salário mensal,100900,Receitas
+2024-10-27,390.98,Gasto com supermercado,100901,Mercado
+2024-10-03,103.28,Gasto com lazer,100902,Compras
+2024-10-04,103.28,Gasto com lazer,100903,Compras
+2024-10-09,390.98,Gasto com supermercado,100904,Mercado
+2024-10-27,214.38,Gasto com restaurante,100905,Alimentação
+2024-10-16,39.27,Gasto com farmácia,100906,Saúde
+2024-10-27,214.38,Gasto com restaurante,100907,Alimentação
+2024-10-10,106.93,Gasto com transporte,100908,Transporte
+2024-11-01,4500.0,Salário mensal,101000,Receitas
+2024-11-04,103.28,Gasto com lazer,101001,Alimentação
+2024-11-08,214.38,Gasto com restaurante,101002,Alimentação
+2024-11-17,170.78,Gasto com academia,101003,Saúde
+2024-11-24,39.27,Gasto com farmácia,101004,Saúde
+2024-11-24,390.98,Gasto com supermercado,101005,Mercado
+2024-11-13,214.38,Gasto com restaurante,101006,Alimentação
+2024-11-23,170.78,Gasto com academia,101007,Saúde
+2024-11-02,390.98,Gasto com supermercado,101008,Mercado
+2024-11-15,390.98,Gasto com supermercado,101009,Mercado
+2024-12-01,4500.0,Salário mensal,101100,Receitas
+2024-12-04,214.38,Gasto com restaurante,101101,Alimentação
+2024-12-17,214.38,Gasto com restaurante,101102,Alimentação
+2024-12-10,106.93,Gasto com transporte,101103,Transporte
+2024-12-07,390.98,Gasto com supermercado,101104,Mercado
+2024-12-28,103.28,Gasto com lazer,101105,Alimentação
+2024-12-18,103.28,Gasto com lazer,101106,Alimentação
+2024-12-06,214.38,Gasto com restaurante,101107,Alimentação
+2024-12-27,106.93,Gasto com transporte,101108,Transporte

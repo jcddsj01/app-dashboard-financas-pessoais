@@ -1,0 +1,137 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <DTSERVER>20240131000000
+      <LANGUAGE>ENG
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1001
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL
+        <BANKACCTFROM>
+          <BANKID>123
+          <ACCTID>123456789
+          <ACCTTYPE>CHECKING
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20240101000000
+          <DTEND>20240131000000
+          
+      <STMTTRN>
+        <TRNTYPE>DEPOSIT
+        <DTPOSTED>20240101
+        <TRNAMT>4500.00
+        <FITID>100000
+        <NAME>Empresa XYZ
+        <MEMO>Salário mensal
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240106
+        <TRNAMT>39.27
+        <FITID>100001
+        <NAME>Farmácia
+        <MEMO>Gasto com farmácia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240113
+        <TRNAMT>390.98
+        <FITID>100002
+        <NAME>Supermercado
+        <MEMO>Gasto com supermercado
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240125
+        <TRNAMT>390.98
+        <FITID>100003
+        <NAME>Supermercado
+        <MEMO>Gasto com supermercado
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240123
+        <TRNAMT>170.78
+        <FITID>100004
+        <NAME>Academia
+        <MEMO>Gasto com academia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240123
+        <TRNAMT>214.38
+        <FITID>100005
+        <NAME>Restaurante
+        <MEMO>Gasto com restaurante
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240110
+        <TRNAMT>390.98
+        <FITID>100006
+        <NAME>Supermercado
+        <MEMO>Gasto com supermercado
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240102
+        <TRNAMT>39.27
+        <FITID>100007
+        <NAME>Farmácia
+        <MEMO>Gasto com farmácia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240123
+        <TRNAMT>214.38
+        <FITID>100008
+        <NAME>Restaurante
+        <MEMO>Gasto com restaurante
+      </STMTTRN>
+    
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00
+          <DTASOF>20240131000000
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>

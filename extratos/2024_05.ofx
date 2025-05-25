@@ -1,0 +1,147 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <DTSERVER>20240531000000
+      <LANGUAGE>ENG
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1001
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL
+        <BANKACCTFROM>
+          <BANKID>123
+          <ACCTID>123456789
+          <ACCTTYPE>CHECKING
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20240501000000
+          <DTEND>20240531000000
+          
+      <STMTTRN>
+        <TRNTYPE>DEPOSIT
+        <DTPOSTED>20240501
+        <TRNAMT>4500.00
+        <FITID>100400
+        <NAME>Empresa XYZ
+        <MEMO>Salário mensal
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240506
+        <TRNAMT>214.38
+        <FITID>100401
+        <NAME>Restaurante
+        <MEMO>Gasto com restaurante
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240521
+        <TRNAMT>170.78
+        <FITID>100402
+        <NAME>Academia
+        <MEMO>Gasto com academia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240518
+        <TRNAMT>103.28
+        <FITID>100403
+        <NAME>Lazer
+        <MEMO>Gasto com lazer
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240513
+        <TRNAMT>39.27
+        <FITID>100404
+        <NAME>Farmácia
+        <MEMO>Gasto com farmácia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240523
+        <TRNAMT>106.93
+        <FITID>100405
+        <NAME>Transporte
+        <MEMO>Gasto com transporte
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240526
+        <TRNAMT>170.78
+        <FITID>100406
+        <NAME>Academia
+        <MEMO>Gasto com academia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240510
+        <TRNAMT>106.93
+        <FITID>100407
+        <NAME>Transporte
+        <MEMO>Gasto com transporte
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240509
+        <TRNAMT>106.93
+        <FITID>100408
+        <NAME>Transporte
+        <MEMO>Gasto com transporte
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20240526
+        <TRNAMT>106.93
+        <FITID>100409
+        <NAME>Transporte
+        <MEMO>Gasto com transporte
+      </STMTTRN>
+    
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00
+          <DTASOF>20240531000000
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>

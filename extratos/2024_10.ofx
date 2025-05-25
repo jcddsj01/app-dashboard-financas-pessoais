@@ -1,0 +1,137 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <DTSERVER>20241031000000
+      <LANGUAGE>ENG
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1001
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL
+        <BANKACCTFROM>
+          <BANKID>123
+          <ACCTID>123456789
+          <ACCTTYPE>CHECKING
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20241001000000
+          <DTEND>20241031000000
+          
+      <STMTTRN>
+        <TRNTYPE>DEPOSIT
+        <DTPOSTED>20241001
+        <TRNAMT>4500.00
+        <FITID>100900
+        <NAME>Empresa XYZ
+        <MEMO>Salário mensal
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241027
+        <TRNAMT>390.98
+        <FITID>100901
+        <NAME>Supermercado
+        <MEMO>Gasto com supermercado
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241003
+        <TRNAMT>103.28
+        <FITID>100902
+        <NAME>Lazer
+        <MEMO>Gasto com lazer
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241004
+        <TRNAMT>103.28
+        <FITID>100903
+        <NAME>Lazer
+        <MEMO>Gasto com lazer
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241009
+        <TRNAMT>390.98
+        <FITID>100904
+        <NAME>Supermercado
+        <MEMO>Gasto com supermercado
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241027
+        <TRNAMT>214.38
+        <FITID>100905
+        <NAME>Restaurante
+        <MEMO>Gasto com restaurante
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241016
+        <TRNAMT>39.27
+        <FITID>100906
+        <NAME>Farmácia
+        <MEMO>Gasto com farmácia
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241027
+        <TRNAMT>214.38
+        <FITID>100907
+        <NAME>Restaurante
+        <MEMO>Gasto com restaurante
+      </STMTTRN>
+    
+
+      <STMTTRN>
+        <TRNTYPE>DEBIT
+        <DTPOSTED>20241010
+        <TRNAMT>106.93
+        <FITID>100908
+        <NAME>Transporte
+        <MEMO>Gasto com transporte
+      </STMTTRN>
+    
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00
+          <DTASOF>20241031000000
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>
