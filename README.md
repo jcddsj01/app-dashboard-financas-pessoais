@@ -10,7 +10,6 @@ Você pode assistir o vídeo aqui:<br>
 É uma dashboard voltada para a análise de dados de finanças pessoais. Você poderá filtrar por dia e mês, categorias e visualizar essas informações.
 
 ## Aviso sobre os arquivos `.ofx`
-
 Os arquivos com extensão `.ofx` na pasta `extrato` contêm dados fictícios.  
 Esses dados foram gerados por inteligência artificial exclusivamente para fins de teste e demonstração do projeto, e **não correspondem a informações reais**.
 
