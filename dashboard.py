@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Configuração da página
-st.set_page_config(page_title="Dashboard de Finanças Pessoais", layout="wide")
+st.set_page_config(page_title="Dashboard de Finanças Pessoais", layout="centered")
 
 # Leitura e preparação dos dados
 df = pd.read_csv("finances.csv")
@@ -45,7 +45,6 @@ df_display = df_filtered.copy()
 df_display["Data"] = df_display["Data"].dt.strftime("%d/%m/%Y")
 df_display["Valor"] = df_display["Valor"].apply(lambda x: f"R$ {x:,.2f}".replace(",", "v").replace(".", ",").replace("v", "."))
 
-# Layout com colunas
-c1, c2 = st.columns([0.5, 0.5])
-c1.dataframe(df_display)
-c2.plotly_chart(fig, use_container_width=True)
+# Exibição dos gráficos e tabela
+st.dataframe(df_display)
+st.plotly_chart(fig, use_container_width=True)
